@@ -23,5 +23,8 @@ word = input("Enter word: ")
 
 output = (translate(word))
 
-for item in output:
-    print(item)
+if type(output) == list:
+    for item in output:
+        print(item)
+else:
+    print(output)
