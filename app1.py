@@ -21,4 +21,7 @@ def translate(w):
 
 word = input("Enter word: ")
 
-print(translate(word))
+output = (translate(word))
+
+for item in output:
+    print(item)
